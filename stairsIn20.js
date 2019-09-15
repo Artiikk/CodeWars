@@ -7,7 +7,7 @@
 // }
 
 // function stairsIn20(a) {
-//   return 20 * a.reduce((s, a) => s + a.reduce((s, n) => s + n, 0), 0);
+//   return 20 * a.reduce((s, n) => s + n.reduce((s, n) => s + n, 0), 0);
 // }
 
 const stairsIn20 = stairs => stairs.flat().reduce((x,y) => x+y)*20;

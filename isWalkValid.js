@@ -12,5 +12,5 @@ function isValidWalk(walk) {
     }
   }
 
-  return dt === 10 && dx === 0 && dy === 0
+  return dt === 10 && dx === 0 && dy === 0;
 }

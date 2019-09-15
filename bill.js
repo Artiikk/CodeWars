@@ -11,4 +11,4 @@ function bill(number) {
   return newArr.reverse().join('');
 }
 
-console.log(bill('1000'));
+console.log(bill('100000000000'));
