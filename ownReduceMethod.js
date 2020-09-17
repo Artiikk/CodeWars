@@ -25,7 +25,7 @@ Array.prototype.myReduce = function(callback) { //eslint-disable-line
 
   for (let i = 0; i < this.length; i++) {
     const element = this[i];
-    value = callback(value, element, i, array);
+    value = callback(value, element, i, this);
   }
   return value
 }
