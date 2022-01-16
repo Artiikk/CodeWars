@@ -3,4 +3,4 @@ function solution(str, ending) {
 }
 
 console.log(solution("abcde", "cde")); // true;
-console.log(solution("abcde", "abc")); //false;
+// console.log(solution("abcde", "abc")); //false;

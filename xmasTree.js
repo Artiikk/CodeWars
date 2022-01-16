@@ -15,4 +15,4 @@ function xmasTree(input) {
 }
 
 
-console.log(xmasTree(7));
+console.log(xmasTree(101));
